@@ -272,9 +272,7 @@ p{
       
      
     }
-    .download{
-        display: none;
-    }
+  
     .bg-dark {
         background-color: transparent!important;
         padding: 18px;
@@ -304,4 +302,24 @@ p{
     list-style: none;
     text-align: center;
 }
+}
+@media(max-width:1024px){
+    .navbar-nav {
+        display: flex;
+        margin:0 auto;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .navbar-dark .navbar-toggler {    
+        border:2px solid rgb(72, 69, 243);
+        background: rgb(124, 122, 161);
+      
+     
+    }
+    .scrollNavbar{
+        background: rgba(139, 167, 194, 0.801) !important; 
+    }
 }
