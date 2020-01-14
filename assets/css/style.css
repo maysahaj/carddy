@@ -253,6 +253,11 @@ color:#7A7C7E;
 
 	color:#326CD8 !important;
 }
+.scrollNavbar #down{
+
+    background:#326CD8 !important;
+    color:#fff;
+}
 .logo img{
     width:120px;
 }
