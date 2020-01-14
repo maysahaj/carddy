@@ -1,0 +1,287 @@
+body{
+    direction: rtl;
+    font-family: 'NotoKufiArabic-regular';
+}
+@font-face {
+    font-family: 'NotoKufiArabic-regular';
+    src: url('../fonts/ArbFONTS-22015-notokufiarabic-regular.ttf');
+    src: local('☺'),  url('../fonts/ArbFONTS-22015-notokufiarabic-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+        font-size: 16px;
+        padding-left: 40px;
+    }
+    .bg-dark {
+        background-color: transparent!important;
+      
+    }
+    .download{
+        margin: 0px 50px 0px 50px;
+        height: 45px;
+        width:150px;
+        line-height: 32px;
+        color:#01BBD0;
+        border-radius: 30px;
+    }
+    .download:hover{
+        background: #326CD8;
+        color:#13253B;
+        border:2px solid #fff;
+    }
+.mainSection{
+    background: url("../img/back.png");
+    height: auto;
+    object-fit: cover;
+   
+}
+.mainSection .row{
+    padding-top:100px;
+}
+.mainSection .row h1{
+    padding-top:150px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 37px;
+}
+.mainSection .row p{
+    color:#FFFFFF;
+    font-size: 20px;
+}
+.mainSection .row .row img{
+   width:95%;
+   border-radius: 20px;
+   height: 72px;
+
+}
+.left img{
+    width:100%;
+}
+.aboutApp h2{
+    color:#13253B;
+    font-weight: bold;
+}
+.aboutApp p{
+color:#7A7C7E;
+}
+.aboutApp .rowApp{
+    width:90%;
+    
+    margin: 0 auto;
+}
+.box-app{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 2px 20px #5F22DF0C;
+    padding: 20px;
+    padding-top:30px;
+    
+}
+.rowApp .row{
+    padding: 20px;
+}
+.box-app i{
+    color:#01BBD0;
+    background: rgb(235, 235, 240);
+    padding: 30px;
+    font-size: 35px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
+.box-app h3{
+    font-size: 20px;
+}
+.box-app p{
+    font-size: 14px;
+}
+.box-app i:hover{
+    color:rgb(235, 235, 240);
+    background: #01BBD0;
+}
+.box-app:hover{
+    box-shadow: 0px 5px 30px #5F22DF1A;
+}
+.box-app h3:hover{
+    font-size: 20px;
+    color: #01BBD0;
+}
+.features{
+    background:  url("../img/ba2.png");
+    margin-top:50px;
+    padding-top:50px;
+    color:#fff;
+    background-size: cover;
+    padding-bottom: 80px;
+     
+}
+.features h2{
+    color:#ffff;
+    font-weight: bold;
+    font-size: 27px;
+}
+.features .rowf{
+    width:93%;
+    margin: 0 auto;
+}
+.features .desc{
+    padding-top:80px;
+}
+.features .text{
+    padding-right: 40px;
+}
+.features .fea img{
+  width:100%;
+}
+.features .row{
+    text-align: right;
+}
+.features .row h5{
+    font-size: 18px;
+    font-weight: bold
+}
+.features .row p{
+    font-size: 13px;
+    color:#FFFFFF;
+}
+.appViews{
+
+    margin-top:50px;
+    padding-top:50px;
+   width:100%;
+   overflow-x: hidden;
+     
+}
+.appViews h2{
+    font-weight: bold;
+    font-size: 27px;
+}
+.appViews img{
+    width:98%;
+}
+.contact{
+    margin-top:50px;
+    padding-top:50px;
+   width:100%;
+   background: #F3F5F8;
+   overflow-x: hidden;
+
+}
+.contact h2{
+    font-weight: bold;
+    font-size: 27px;
+}
+.contact .row{
+     margin:0 auto;
+     width: 80%;
+}
+.contact-box{
+    background: #fff;
+}
+.contact .contact-box a i {
+    color:#326CD8;
+    font-size: 20px;
+}
+.contact .contact-box a p{
+    font-size: 13px;
+   
+}
+.contact input{
+   height: 40px;
+}
+.contact textarea{
+    height: 90px;
+}
+.copyright{
+    background: #13253B;
+    padding:40px;
+  
+
+}
+.footer {
+    color:#ffff;
+ 
+}
+.footer img{
+    width:100%;
+    object-fit: cover;
+}
+.copyright .nav a{
+    color:#fff;
+}
+.copyright p{
+     font-size: 14px;
+}
+
+/*/* backTop*/
+.scrollNavbar{
+    background: rgba(139, 167, 194, 0.801) !important; 
+}
+
+.backTop{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #13253B;
+    color:#fff;
+    text-align: center;
+    right: 20px;
+    bottom: 10px;
+    border:2px solid #01BBD0;
+    font-size: 18px;
+    z-index: 10;
+    transition-duration: 0.2s;
+    display: none;
+    padding-top:8px;
+}
+.backTop:hover{
+    color: white;
+}
+.visible{
+    display: block;
+}
+
+@media(max-width:992px){
+    .navbar-dark .navbar-toggler {
+      
+        
+        border:2px solid rgb(72, 69, 243);
+        background: rgb(124, 122, 161);
+      
+     
+    }
+    .download{
+        display: none;
+    }
+    .bg-dark {
+        background-color: transparent!important;
+        padding: 18px;
+    }
+    .features .row{
+        text-align: center;
+    }
+    .mainSection .row h1,  .mainSection .row p{
+        color:rgb(42, 44, 49);
+    }
+    .row1{
+        margin-top:30px;
+    }
+   
+    .scrollNavbar{
+        background: rgba(139, 167, 194, 0.801) !important; 
+    }
+    .copyright p{
+        font-size: 10px;
+   }
+   .navbar-nav {
+    display: flex;
+    margin:0 auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+}
+}
