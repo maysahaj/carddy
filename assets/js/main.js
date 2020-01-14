@@ -5,12 +5,17 @@ $(document).ready(function(){
         if (scrollTop > 100){
             $('.navbar').addClass ('scrollNavbar');
             $('.backTop').addClass ('visible');
+            var color = document.getElementById('nav-link');
+            var logo= document.getElementById('logo');
+            logo.src="assets/img/logo-scrol.png";
        
             
 			
         }else if (scrollTop < 100){
             $('.navbar').removeClass('scrollNavbar');
-			$('.backTop').removeClass ('visible');
+            $('.backTop').removeClass ('visible');
+            var logo= document.getElementById('logo');
+            logo.src="assets/img/logo.png";
         };
     });
 	$('.backTop').click (function(){

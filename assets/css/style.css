@@ -16,6 +16,7 @@ body{
     }
     .bg-dark {
         background-color: transparent!important;
+        padding: 30px;
       
     }
     .download{
@@ -43,21 +44,22 @@ body{
 .mainSection .row h1{
     padding-top:150px;
     color:#fff;
-    font-weight: bold;
-    font-size: 37px;
+
+    font-size: 30px;
 }
 .mainSection .row p{
     color:#FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
 }
 .mainSection .row .row img{
-   width:95%;
-   border-radius: 20px;
-   height: 72px;
-
+    width: 85%;
+    border-radius: 20px;
+    height: 55px;
 }
+
+
 .left img{
-    width:100%;
+    width:85%;
 }
 .aboutApp h2{
     color:#13253B;
@@ -119,7 +121,7 @@ color:#7A7C7E;
 .features h2{
     color:#ffff;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 25px;
 }
 .features .rowf{
     width:93%;
@@ -155,7 +157,7 @@ color:#7A7C7E;
 }
 .appViews h2{
     font-weight: bold;
-    font-size: 27px;
+    font-size: 25px;
 }
 .appViews img{
     width:98%;
@@ -170,7 +172,7 @@ color:#7A7C7E;
 }
 .contact h2{
     font-weight: bold;
-    font-size: 27px;
+    font-size: 25px;
 }
 .contact .row{
      margin:0 auto;
@@ -216,7 +218,7 @@ color:#7A7C7E;
 
 /*/* backTop*/
 .scrollNavbar{
-    background: rgba(139, 167, 194, 0.801) !important; 
+    background:#fff !important; 
 }
 
 .backTop{
@@ -243,10 +245,19 @@ color:#7A7C7E;
     display: block;
 }
 
+.scrollNavbar  .nav-link{
+
+	color:#326CD8 !important;
+}
+.logo img{
+    width:120px;
+}
+
+p{
+    font-size: 14px;
+}
 @media(max-width:992px){
-    .navbar-dark .navbar-toggler {
-      
-        
+    .navbar-dark .navbar-toggler {    
         border:2px solid rgb(72, 69, 243);
         background: rgb(124, 122, 161);
       
